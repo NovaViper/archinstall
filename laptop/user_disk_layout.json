@@ -1,0 +1,72 @@
+{
+    "/dev/nvme0n1": {
+        "partitions": [
+            {
+                "ESP": true,
+                "PARTUUID": null,
+                "boot": true,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": "/boot",
+                "size": 204800,
+                "start": 2048,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": null,
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": null,
+                "size": 32768,
+                "start": 206848,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": null,
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": null
+                },
+                "mountpoint": null,
+                "size": 526256856,
+                "start": 239616,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "ESP": false,
+                "PARTUUID": "0d4b0e39-f670-43a1-a168-1d257f7d2290",
+                "boot": false,
+                "encrypted": false,
+                "filesystem": {
+                    "format": "ntfs"
+                },
+                "mountpoint": null,
+                "size": 1650688,
+                "start": 526497792,
+                "type": "primary",
+                "wipe": false
+            },
+            {
+                "filesystem": {
+                    "format": "ext4"
+                },
+                "mountpoint": "/",
+                "size": "270GB",
+                "start": "270GB",
+                "type": "primary",
+                "wipe": true
+            }
+        ]
+    }
+}
