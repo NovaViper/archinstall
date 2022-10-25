@@ -3,11 +3,11 @@
         "partitions": [
             {
                 "ESP": true,
-                "PARTUUID": null,
+                "PARTUUID": "7269-AEC1",
                 "boot": true,
                 "encrypted": false,
                 "filesystem": {
-                    "format": null
+                    "format": "vfat"
                 },
                 "mountpoint": "/boot",
                 "size": 204800,
@@ -17,11 +17,11 @@
             },
             {
                 "ESP": false,
-                "PARTUUID": null,
+                "PARTUUID": "",
                 "boot": false,
                 "encrypted": false,
                 "filesystem": {
-                    "format": null
+                    "format": ""
                 },
                 "mountpoint": null,
                 "size": 32768,
@@ -31,11 +31,11 @@
             },
             {
                 "ESP": false,
-                "PARTUUID": null,
+                "PARTUUID": "8EEC6E27EC6E09B3",
                 "boot": false,
                 "encrypted": false,
                 "filesystem": {
-                    "format": null
+                    "format": "ntfs"
                 },
                 "mountpoint": null,
                 "size": 526256856,
@@ -45,7 +45,7 @@
             },
             {
                 "ESP": false,
-                "PARTUUID": "0d4b0e39-f670-43a1-a168-1d257f7d2290",
+                "PARTUUID": "6876F27E76F24BF6",
                 "boot": false,
                 "encrypted": false,
                 "filesystem": {
@@ -58,12 +58,16 @@
                 "wipe": false
             },
             {
+                "ESP": false,
+                "PARTUUID": "34aa1433-4dfa-4822-b435-07e5c8ef5dda",
+                "boot": false,
+                "encrypted": false,
                 "filesystem": {
                     "format": "ext4"
                 },
                 "mountpoint": "/",
-                "size": "270GB",
-                "start": "270GB",
+                "size": 472066703,
+                "start": 528148480,
                 "type": "primary",
                 "wipe": true
             }

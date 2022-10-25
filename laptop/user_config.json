@@ -7,7 +7,7 @@
     "archinstall-language": "English",
     "audio": "pipewire",
     "bootloader": "systemd-bootctl",
-    "config_version": "2.5.1",
+    "config_version": "2.5.0",
     "debug": false,
     "desktop-environment": "kde",
     "gfx_driver": "Intel (open-source)",
@@ -129,6 +129,7 @@
             "https://zxcvfdsa.com/arch/$repo/os/$arch": true
         }
     },
+    "mount_point": null,
     "nic": {
         "dhcp": true,
         "dns": null,
@@ -137,15 +138,13 @@
         "ip": null,
         "type": "nm"
     },
-    "no_pkg_lookups": false,
     "ntp": true,
-    "offline": false,
     "packages": [
         "yadm",
         "yubikey-manager",
         "yubikey-personalization"
     ],
-    "parallel downloads": 4,
+    "plugin": null,
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
     },
@@ -156,5 +155,5 @@
     "sys-encoding": "UTF-8",
     "sys-language": "en_US",
     "timezone": "America/Chicago",
-    "version": "2.5.1"
+    "version": "2.5.0"
 }
