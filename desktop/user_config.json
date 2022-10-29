@@ -142,7 +142,9 @@
     "packages": [
         "yadm",
         "yubikey-manager",
-        "yubikey-personalization"
+        "yubikey-personalization",
+        "firefox",
+        "unzip"
     ],
     "plugin": null,
     "profile": {
